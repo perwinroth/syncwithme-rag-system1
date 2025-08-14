@@ -13,7 +13,10 @@
     "process-corpuses": "tsx src/scripts/process-corpuses.ts",
     "docker:build": "docker build -t syncwithme-rag .",
     "docker:run": "docker run -p 3001:3001 --env-file .env syncwithme-rag",
-    "generate-corpus": "tsx src/scripts/generate-corpus.ts"
+    "generate-corpus": "tsx src/scripts/generate-corpus.ts",
+    "generate-test-corpus": "tsx src/scripts/generate-test-corpus.ts",
+    "create-global-corpus": "tsx src/scripts/create-global-corpus.ts",
+    "train-global-corpus": "tsx src/scripts/train-with-global-corpus.ts"
   },
   "dependencies": {
     "@pinecone-database/pinecone": "^2.0.0",

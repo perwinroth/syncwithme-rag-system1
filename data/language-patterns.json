@@ -143,5 +143,837 @@
       "count me in but we're all broke students",
       "planning a friends trip to"
     ]
+  },
+  {
+    "id": "lang_global_1",
+    "userQuery": "broke students tokyo nightlife",
+    "detectedIntent": {
+      "destination": "Tokyo, Japan",
+      "activityTypes": [
+        "clubs",
+        "bars",
+        "nightlife"
+      ],
+      "budgetTier": "low",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [
+        "night"
+      ],
+      "priceIndicators": [
+        "broke"
+      ],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_2",
+    "userQuery": "family restaurants melbourne",
+    "detectedIntent": {
+      "destination": "Melbourne, Australia",
+      "activityTypes": [
+        "restaurants",
+        "family"
+      ],
+      "budgetTier": "medium",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "large"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_3",
+    "userQuery": "cheap museums dubai",
+    "detectedIntent": {
+      "destination": "Dubai, UAE",
+      "activityTypes": [
+        "museums",
+        "culture"
+      ],
+      "budgetTier": "low",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [
+        "cheap"
+      ],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_4",
+    "userQuery": "vegan ice cream antarctica",
+    "detectedIntent": {
+      "destination": "Antarctica",
+      "activityTypes": [
+        "food",
+        "vegan"
+      ],
+      "budgetTier": "any",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.3
+    }
+  },
+  {
+    "id": "lang_global_5",
+    "userQuery": "24 hour nightclubs riyadh",
+    "detectedIntent": {
+      "destination": "Riyadh, Saudi Arabia",
+      "activityTypes": [
+        "clubs",
+        "nightlife"
+      ],
+      "budgetTier": "any",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [
+        "night",
+        "24 hour"
+      ],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.3
+    }
+  },
+  {
+    "id": "lang_global_6",
+    "userQuery": "beach clubs january moscow",
+    "detectedIntent": {
+      "destination": "Moscow, Russia",
+      "activityTypes": [
+        "beach",
+        "clubs"
+      ],
+      "budgetTier": "any",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.3
+    }
+  },
+  {
+    "id": "lang_global_7",
+    "userQuery": "luxury dining remote alaska",
+    "detectedIntent": {
+      "destination": "Alaska, USA",
+      "activityTypes": [
+        "restaurants",
+        "luxury"
+      ],
+      "budgetTier": "high",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [
+        "luxury"
+      ],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "lang_global_8",
+    "userQuery": "budget backpacker oslo",
+    "detectedIntent": {
+      "destination": "Oslo, Norway",
+      "activityTypes": [
+        "hostels",
+        "budget"
+      ],
+      "budgetTier": "low",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [
+        "budget"
+      ],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "lang_global_9",
+    "userQuery": "billig mat stockholm studenter",
+    "detectedIntent": {
+      "destination": "Stockholm, Sweden",
+      "activityTypes": [
+        "restaurants",
+        "food"
+      ],
+      "budgetTier": "low",
+      "language": "sv",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [
+        "billig"
+      ],
+      "moodKeywords": [],
+      "locationSpecificity": "local"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_10",
+    "userQuery": "restaurantes baratos buenos aires",
+    "detectedIntent": {
+      "destination": "Buenos Aires, Argentina",
+      "activityTypes": [
+        "restaurants",
+        "food"
+      ],
+      "budgetTier": "low",
+      "language": "es",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [
+        "baratos"
+      ],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_11",
+    "userQuery": "hiking nairobi weekend",
+    "detectedIntent": {
+      "destination": "Nairobi, Kenya",
+      "activityTypes": [
+        "hiking",
+        "nature"
+      ],
+      "budgetTier": "low",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [
+        "weekend"
+      ],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_12",
+    "userQuery": "late night food istanbul",
+    "detectedIntent": {
+      "destination": "Istanbul, Turkey",
+      "activityTypes": [
+        "food",
+        "street-food"
+      ],
+      "budgetTier": "low",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [
+        "night",
+        "late"
+      ],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_13",
+    "userQuery": "winter surfing iceland",
+    "detectedIntent": {
+      "destination": "Iceland",
+      "activityTypes": [
+        "surfing",
+        "extreme-sports"
+      ],
+      "budgetTier": "high",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "lang_global_14",
+    "userQuery": "beach parties north pole",
+    "detectedIntent": {
+      "destination": "North Pole",
+      "activityTypes": [
+        "beach",
+        "parties"
+      ],
+      "budgetTier": "any",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.3
+    }
+  },
+  {
+    "id": "lang_global_15",
+    "userQuery": "nightclubs sunday teheran",
+    "detectedIntent": {
+      "destination": "Tehran, Iran",
+      "activityTypes": [
+        "clubs",
+        "nightlife"
+      ],
+      "budgetTier": "any",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [
+        "night",
+        "sunday"
+      ],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "confidence": 0.3
+    }
+  },
+  {
+    "id": "lang_global_1",
+    "userQuery": "broke students tokyo nightlife",
+    "detectedIntent": {
+      "destination": "Tokyo, Japan",
+      "activityTypes": [
+        "clubs",
+        "bars",
+        "nightlife"
+      ],
+      "budgetTier": "low",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [
+        "night"
+      ],
+      "priceIndicators": [
+        "broke"
+      ],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_2",
+    "userQuery": "family restaurants melbourne",
+    "detectedIntent": {
+      "destination": "Melbourne, Australia",
+      "activityTypes": [
+        "restaurants",
+        "family"
+      ],
+      "budgetTier": "medium",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "large"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_3",
+    "userQuery": "cheap museums dubai",
+    "detectedIntent": {
+      "destination": "Dubai, UAE",
+      "activityTypes": [
+        "museums",
+        "culture"
+      ],
+      "budgetTier": "low",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [
+        "cheap"
+      ],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_4",
+    "userQuery": "vegan ice cream antarctica",
+    "detectedIntent": {
+      "destination": "Antarctica",
+      "activityTypes": [
+        "food",
+        "vegan"
+      ],
+      "budgetTier": "any",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.3
+    }
+  },
+  {
+    "id": "lang_global_5",
+    "userQuery": "24 hour nightclubs riyadh",
+    "detectedIntent": {
+      "destination": "Riyadh, Saudi Arabia",
+      "activityTypes": [
+        "clubs",
+        "nightlife"
+      ],
+      "budgetTier": "any",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [
+        "night",
+        "24 hour"
+      ],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.3
+    }
+  },
+  {
+    "id": "lang_global_6",
+    "userQuery": "beach clubs january moscow",
+    "detectedIntent": {
+      "destination": "Moscow, Russia",
+      "activityTypes": [
+        "beach",
+        "clubs"
+      ],
+      "budgetTier": "any",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.3
+    }
+  },
+  {
+    "id": "lang_global_7",
+    "userQuery": "luxury dining remote alaska",
+    "detectedIntent": {
+      "destination": "Alaska, USA",
+      "activityTypes": [
+        "restaurants",
+        "luxury"
+      ],
+      "budgetTier": "high",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [
+        "luxury"
+      ],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "lang_global_8",
+    "userQuery": "budget backpacker oslo",
+    "detectedIntent": {
+      "destination": "Oslo, Norway",
+      "activityTypes": [
+        "hostels",
+        "budget"
+      ],
+      "budgetTier": "low",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [
+        "budget"
+      ],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "lang_global_9",
+    "userQuery": "billig mat stockholm studenter",
+    "detectedIntent": {
+      "destination": "Stockholm, Sweden",
+      "activityTypes": [
+        "restaurants",
+        "food"
+      ],
+      "budgetTier": "low",
+      "language": "sv",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [
+        "billig"
+      ],
+      "moodKeywords": [],
+      "locationSpecificity": "local"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_10",
+    "userQuery": "restaurantes baratos buenos aires",
+    "detectedIntent": {
+      "destination": "Buenos Aires, Argentina",
+      "activityTypes": [
+        "restaurants",
+        "food"
+      ],
+      "budgetTier": "low",
+      "language": "es",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [
+        "baratos"
+      ],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_11",
+    "userQuery": "hiking nairobi weekend",
+    "detectedIntent": {
+      "destination": "Nairobi, Kenya",
+      "activityTypes": [
+        "hiking",
+        "nature"
+      ],
+      "budgetTier": "low",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [
+        "weekend"
+      ],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_12",
+    "userQuery": "late night food istanbul",
+    "detectedIntent": {
+      "destination": "Istanbul, Turkey",
+      "activityTypes": [
+        "food",
+        "street-food"
+      ],
+      "budgetTier": "low",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [
+        "night",
+        "late"
+      ],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "lang_global_13",
+    "userQuery": "winter surfing iceland",
+    "detectedIntent": {
+      "destination": "Iceland",
+      "activityTypes": [
+        "surfing",
+        "extreme-sports"
+      ],
+      "budgetTier": "high",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "lang_global_14",
+    "userQuery": "beach parties north pole",
+    "detectedIntent": {
+      "destination": "North Pole",
+      "activityTypes": [
+        "beach",
+        "parties"
+      ],
+      "budgetTier": "any",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.3
+    }
+  },
+  {
+    "id": "lang_global_15",
+    "userQuery": "nightclubs sunday teheran",
+    "detectedIntent": {
+      "destination": "Tehran, Iran",
+      "activityTypes": [
+        "clubs",
+        "nightlife"
+      ],
+      "budgetTier": "any",
+      "language": "en",
+      "urgency": "normal",
+      "groupSize": "small"
+    },
+    "contextClues": {
+      "timeOfDay": [
+        "night",
+        "sunday"
+      ],
+      "priceIndicators": [],
+      "moodKeywords": [],
+      "locationSpecificity": "tourist"
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:12:39.295Z",
+      "source": "global_corpus",
+      "confidence": 0.3
+    }
   }
 ]

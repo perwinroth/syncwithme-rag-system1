@@ -74,8 +74,8 @@ export class CloudVectorStore {
     
     const vectors = await Promise.all(
       patterns.map(async (pattern) => {
-        // Create searchable text from phrases
-        const searchText = pattern.phrases.join(' | ')
+        // Create searchable text from phrases or userQuery
+        const searchText = pattern.phrases ? pattern.phrases.join(' | ') : pattern.userQuery || ''
         const embedding = await this.embeddings.embedQuery(searchText)
         
         return {
@@ -167,11 +167,12 @@ export class CloudVectorStore {
   }
 
   private createSearchText(pattern: SuccessPattern): string {
-    const venueNames = pattern.venues.map(v => v.name).join(' ')
-    const venueTypes = pattern.venues.map(v => v.type).join(' ')
+    const venues = pattern.venues || []
+    const venueNames = venues.map(v => v.name).join(' ')
+    const venueTypes = venues.map(v => v.type).join(' ')
     const insights = pattern.metadata.localInsights?.join(' ') || ''
     
-    return `${pattern.destination} ${pattern.category} ${venueNames} ${venueTypes} ${insights} ${pattern.budgetTier}`
+    return `${pattern.destination} ${pattern.category || ''} ${venueNames} ${venueTypes} ${insights} ${pattern.budgetTier || ''}`
   }
 
   private parseSuccessPattern(metadata: any): SuccessPattern {
