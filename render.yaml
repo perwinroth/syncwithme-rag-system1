@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: syncwithme-rag
+    runtime: node
+    repo: https://github.com/YOUR_GITHUB_USERNAME/syncwithme-rag-system
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3001
+      - key: PINECONE_API_KEY
+        sync: false
+      - key: PINECONE_INDEX_NAME
+        value: syncwithme-travel-rag
+      - key: OPENAI_API_KEY
+        sync: false

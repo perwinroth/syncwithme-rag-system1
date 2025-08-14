@@ -1,0 +1,1074 @@
+[
+  {
+    "id": "berlin_techno_budget",
+    "destination": "berlin",
+    "category": "nightlife",
+    "venues": [
+      {
+        "name": "Berghain",
+        "type": "techno club",
+        "address": "Am Wriezener Bahnhof, 10243 Berlin",
+        "priceRange": "€15-25",
+        "bookingMethod": "door only",
+        "rating": 4.8,
+        "specialNotes": [
+          "Arrive after 1am",
+          "Dress in black",
+          "No photos inside"
+        ]
+      },
+      {
+        "name": "Sisyphos",
+        "type": "techno club",
+        "address": "Hauptstraße 15, 10317 Berlin",
+        "priceRange": "€15-20",
+        "bookingMethod": "door or online",
+        "rating": 4.6,
+        "specialNotes": [
+          "More relaxed door policy",
+          "Open air area",
+          "Weekend marathons"
+        ]
+      },
+      {
+        "name": "Warschauer Döner",
+        "type": "late night food",
+        "address": "Warschauer Str. 70, 10243 Berlin",
+        "priceRange": "€4-8",
+        "bookingMethod": "walk-in",
+        "rating": 4.3,
+        "specialNotes": [
+          "Open 24/7",
+          "Perfect after clubbing",
+          "Cash only"
+        ]
+      }
+    ],
+    "budgetTier": "medium",
+    "successRate": 0.89,
+    "userSatisfaction": 4.7,
+    "metadata": {
+      "source": "berlintraveltips.com",
+      "lastUpdated": "2025-08-14T18:24:04.596Z",
+      "bookingPattern": "spontaneous",
+      "localInsights": [
+        "Berghain is legendary but Sisyphos is more accessible",
+        "Always have cash for late night food",
+        "Techno scene runs Friday night to Monday morning",
+        "Warschauer area is the epicenter"
+      ]
+    }
+  },
+  {
+    "id": "paris_art_food_couple",
+    "destination": "paris",
+    "category": "culture",
+    "venues": [
+      {
+        "name": "Louvre Museum",
+        "type": "art museum",
+        "address": "Rue de Rivoli, 75001 Paris",
+        "priceRange": "€17",
+        "bookingMethod": "online advance",
+        "rating": 4.5,
+        "website": "https://www.louvre.fr",
+        "openingHours": "9:00-18:00 (closed Tuesdays)"
+      },
+      {
+        "name": "Musée d'Orsay",
+        "type": "art museum",
+        "address": "1 Rue de la Légion d'Honneur, 75007 Paris",
+        "priceRange": "€16",
+        "bookingMethod": "online or door",
+        "rating": 4.6,
+        "specialNotes": [
+          "Best for Impressionist art",
+          "Less crowded than Louvre"
+        ]
+      },
+      {
+        "name": "L'As du Fallafel",
+        "type": "restaurant",
+        "address": "34 Rue des Rosiers, 75004 Paris",
+        "priceRange": "€8-15",
+        "bookingMethod": "walk-in",
+        "rating": 4.4,
+        "specialNotes": [
+          "Famous Marais falafel",
+          "Long queues",
+          "Cash preferred"
+        ]
+      }
+    ],
+    "budgetTier": "medium",
+    "successRate": 0.92,
+    "userSatisfaction": 4.8,
+    "metadata": {
+      "source": "multiple_travel_blogs",
+      "lastUpdated": "2025-08-14T18:24:04.597Z",
+      "bookingPattern": "planned",
+      "localInsights": [
+        "Book museum tickets online to skip lines",
+        "Marais district perfect for art + food combination",
+        "October is ideal weather for walking",
+        "Coffee shops near museums for breaks"
+      ]
+    }
+  },
+  {
+    "id": "tokyo_foodie_solo",
+    "destination": "tokyo",
+    "category": "food",
+    "venues": [
+      {
+        "name": "Tsukiji Outer Market",
+        "type": "food market",
+        "address": "5 Chome-2-1 Tsukiji, Chuo City, Tokyo",
+        "priceRange": "€5-20",
+        "bookingMethod": "walk-in",
+        "rating": 4.7,
+        "openingHours": "5:00-14:00",
+        "specialNotes": [
+          "Early morning best",
+          "Fresh sushi",
+          "Cash only most stalls"
+        ]
+      },
+      {
+        "name": "Ippudo Ramen",
+        "type": "ramen shop",
+        "address": "Multiple locations",
+        "priceRange": "€8-15",
+        "bookingMethod": "walk-in",
+        "rating": 4.5,
+        "specialNotes": [
+          "Tonkotsu specialist",
+          "English menu available",
+          "Queue expected"
+        ]
+      },
+      {
+        "name": "Nabezo",
+        "type": "all-you-can-eat",
+        "address": "Multiple locations",
+        "priceRange": "€25-35",
+        "bookingMethod": "online reservation",
+        "rating": 4.2,
+        "specialNotes": [
+          "Budget-friendly option",
+          "90-minute limit",
+          "Great for solo diners"
+        ]
+      }
+    ],
+    "budgetTier": "low",
+    "successRate": 0.85,
+    "userSatisfaction": 4.6,
+    "metadata": {
+      "source": "foodie_travel_guides",
+      "lastUpdated": "2025-08-14T18:24:04.597Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Tsukiji early morning essential for best selection",
+        "Ramen shops often have queues but move fast",
+        "Many places cash only",
+        "Solo dining very common and comfortable"
+      ]
+    }
+  },
+  {
+    "id": "global_1",
+    "userQuery": "broke students tokyo nightlife",
+    "destination": "Tokyo, Japan",
+    "context": {
+      "budget": "low",
+      "interests": [
+        "clubs",
+        "bars",
+        "nightlife"
+      ],
+      "groupType": "friends",
+      "season": "any"
+    },
+    "outcome": {
+      "venues": [
+        {
+          "name": "Golden Gai",
+          "type": "clubs",
+          "priceRange": "¥500-1000",
+          "bookingMethod": "direct",
+          "rating": 4,
+          "specialNotes": [
+            "positive"
+          ]
+        }
+      ],
+      "satisfaction": 5,
+      "reasoning": "Golden Gai, Shinjuku, ¥500-1000 drinks, tiny bars. Robot Restaurant, Kabukicho, ¥8000 show, unique experience. Ameya-Yokocho, Ueno, ¥300-500 yakitori, market stalls. Shibuya clubs: Womb ¥3000, Contact..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.307Z",
+      "source": "global_corpus",
+      "language": "en",
+      "responseType": "positive"
+    }
+  },
+  {
+    "id": "global_2",
+    "userQuery": "family restaurants melbourne",
+    "destination": "Melbourne, Australia",
+    "context": {
+      "budget": "medium",
+      "interests": [
+        "restaurants",
+        "family"
+      ],
+      "groupType": "family",
+      "season": "any"
+    },
+    "outcome": {
+      "venues": [
+        {
+          "name": "Chin Chin",
+          "type": "restaurants",
+          "priceRange": "$25-35",
+          "bookingMethod": "direct",
+          "rating": 4,
+          "specialNotes": [
+            "positive"
+          ]
+        }
+      ],
+      "satisfaction": 5,
+      "reasoning": "Chin Chin, 125 Flinders Ln, $25-35 per dish, Southeast Asian. The Eureka Skydeck, 7 Riverside Quay, $25 entry + restaurant, city views. Luna Park, 18 Lower Esplanade, $10-15 rides + food court. Kids m..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "en",
+      "responseType": "positive"
+    }
+  },
+  {
+    "id": "global_3",
+    "userQuery": "cheap museums dubai",
+    "destination": "Dubai, UAE",
+    "context": {
+      "budget": "low",
+      "interests": [
+        "museums",
+        "culture"
+      ],
+      "groupType": "solo",
+      "season": "any"
+    },
+    "outcome": {
+      "venues": [
+        {
+          "name": "Dubai Museum",
+          "type": "museums",
+          "priceRange": "Varies",
+          "bookingMethod": "direct",
+          "rating": 4,
+          "specialNotes": [
+            "positive"
+          ]
+        }
+      ],
+      "satisfaction": 5,
+      "reasoning": "Dubai Museum, Al Fahidi Fort, AED 3 entry, historical exhibits. Etihad Museum, Jumeira, AED 25, UAE history. Al Shindagha Museum, Al Shindagha, AED 15, traditional culture. Emirates Palace free lobby ..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "en",
+      "responseType": "positive"
+    }
+  },
+  {
+    "id": "global_4",
+    "userQuery": "vegan ice cream antarctica",
+    "destination": "Antarctica",
+    "context": {
+      "budget": "any",
+      "interests": [
+        "food",
+        "vegan"
+      ],
+      "groupType": "solo",
+      "season": "summer"
+    },
+    "outcome": {
+      "venues": [],
+      "satisfaction": 1,
+      "reasoning": "Sorry, there are no vegan ice cream shops in Antarctica. Antarctica has no permanent commercial establishments. The closest options would be in Ushuaia, Argentina (gateway city) with limited vegan opt..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "en",
+      "responseType": "negative"
+    }
+  },
+  {
+    "id": "global_5",
+    "userQuery": "24 hour nightclubs riyadh",
+    "destination": "Riyadh, Saudi Arabia",
+    "context": {
+      "budget": "any",
+      "interests": [
+        "clubs",
+        "nightlife"
+      ],
+      "groupType": "solo",
+      "season": "any"
+    },
+    "outcome": {
+      "venues": [
+        {
+          "name": "Riyadh doesn't have traditional nightclubs due to local laws. Alternatives: Al Nakheel Mall entertainment complex until 11pm",
+          "type": "clubs",
+          "priceRange": "Varies",
+          "bookingMethod": "direct",
+          "rating": 1,
+          "specialNotes": [
+            "negative"
+          ]
+        }
+      ],
+      "satisfaction": 1,
+      "reasoning": "Riyadh doesn't have traditional nightclubs due to local laws. Alternatives: Al Nakheel Mall entertainment complex until 11pm, café culture at Tahlia Street, hotel lounges like Four Seasons. Consider d..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "en",
+      "responseType": "negative"
+    }
+  },
+  {
+    "id": "global_6",
+    "userQuery": "beach clubs january moscow",
+    "destination": "Moscow, Russia",
+    "context": {
+      "budget": "any",
+      "interests": [
+        "beach",
+        "clubs"
+      ],
+      "groupType": "solo",
+      "season": "winter"
+    },
+    "outcome": {
+      "venues": [],
+      "satisfaction": 1,
+      "reasoning": "No beach clubs operate in Moscow during January (-10°C average). Winter alternatives: Sanduny Baths, Neglinnaya St 14, traditional Russian banya experience. Gorky Park ice skating, free entry. Indoor ..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "en",
+      "responseType": "negative"
+    }
+  },
+  {
+    "id": "global_7",
+    "userQuery": "luxury dining remote alaska",
+    "destination": "Alaska, USA",
+    "context": {
+      "budget": "high",
+      "interests": [
+        "restaurants",
+        "luxury"
+      ],
+      "groupType": "solo",
+      "season": "summer"
+    },
+    "outcome": {
+      "venues": [
+        {
+          "name": "Limited luxury options in remote Alaska. Anchorage: Simon & Seafort's",
+          "type": "restaurants",
+          "priceRange": "$35-55",
+          "bookingMethod": "direct",
+          "rating": 3,
+          "specialNotes": [
+            "mixed"
+          ]
+        }
+      ],
+      "satisfaction": 3,
+      "reasoning": "Limited luxury options in remote Alaska. Anchorage: Simon & Seafort's, 420 L St, $35-55 entrees, seafood views. Juneau: Salt, 200 Seward St, $28-45, local ingredients. Most remote areas: local lodges ..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "en",
+      "responseType": "mixed"
+    }
+  },
+  {
+    "id": "global_8",
+    "userQuery": "budget backpacker oslo",
+    "destination": "Oslo, Norway",
+    "context": {
+      "budget": "low",
+      "interests": [
+        "hostels",
+        "budget"
+      ],
+      "groupType": "solo",
+      "season": "any"
+    },
+    "outcome": {
+      "venues": [
+        {
+          "name": "Oslo is very expensive. Budget options: Anker Hostel",
+          "type": "hostels",
+          "priceRange": "400 NOK",
+          "bookingMethod": "direct",
+          "rating": 3,
+          "specialNotes": [
+            "mixed"
+          ]
+        }
+      ],
+      "satisfaction": 3,
+      "reasoning": "Oslo is very expensive. Budget options: Anker Hostel, Storgata 55, 250-400 NOK/night. Free activities: Vigeland Park sculptures, Aker Brygge waterfront walk. Cheap eats: Grønland district, 60-120 NOK ..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "en",
+      "responseType": "mixed"
+    }
+  },
+  {
+    "id": "global_9",
+    "userQuery": "billig mat stockholm studenter",
+    "destination": "Stockholm, Sweden",
+    "context": {
+      "budget": "low",
+      "interests": [
+        "restaurants",
+        "food"
+      ],
+      "groupType": "solo",
+      "season": "any"
+    },
+    "outcome": {
+      "venues": [
+        {
+          "name": "Hermans Vegetariska",
+          "type": "restaurants",
+          "priceRange": "120 SEK",
+          "bookingMethod": "direct",
+          "rating": 4,
+          "specialNotes": [
+            "positive"
+          ]
+        }
+      ],
+      "satisfaction": 5,
+      "reasoning": "Hermans Vegetariska, Fjällgatan 23B, 85-120 SEK buffé, vegetarisk. Nystekt Strömming, Södermalm, 45-65 SEK, stekt strömming. Tradition, Östgötagatan 33, 95-140 SEK, svensk husmanskost. Max Burgers, fl..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "sv",
+      "responseType": "positive"
+    }
+  },
+  {
+    "id": "global_10",
+    "userQuery": "restaurantes baratos buenos aires",
+    "destination": "Buenos Aires, Argentina",
+    "context": {
+      "budget": "low",
+      "interests": [
+        "restaurants",
+        "food"
+      ],
+      "groupType": "solo",
+      "season": "any"
+    },
+    "outcome": {
+      "venues": [
+        {
+          "name": "El Cuartito",
+          "type": "restaurants",
+          "priceRange": "$500-800",
+          "bookingMethod": "direct",
+          "rating": 4,
+          "specialNotes": [
+            "positive"
+          ]
+        }
+      ],
+      "satisfaction": 5,
+      "reasoning": "El Cuartito, Talcahuano 937, $500-800 pesos, pizza porteña. Los Inmortales, Corrientes 1369, $400-600, empanadas. Café Tortoni, Av. de Mayo 825, $300-500, histórico café. La Brigada, Estados Unidos 46..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "es",
+      "responseType": "positive"
+    }
+  },
+  {
+    "id": "global_11",
+    "userQuery": "hiking nairobi weekend",
+    "destination": "Nairobi, Kenya",
+    "context": {
+      "budget": "low",
+      "interests": [
+        "hiking",
+        "nature"
+      ],
+      "groupType": "solo",
+      "season": "any"
+    },
+    "outcome": {
+      "venues": [
+        {
+          "name": "Ngong Hills",
+          "type": "hiking",
+          "priceRange": "500 KSH",
+          "bookingMethod": "direct",
+          "rating": 4,
+          "specialNotes": [
+            "positive"
+          ]
+        }
+      ],
+      "satisfaction": 5,
+      "reasoning": "Ngong Hills, 30km south, 500 KSH entry, rolling hills views. Karura Forest, Kiambu Road, free entry, urban forest trails. Mount Longonot, 90km northwest, 300 KSH + 2000 KSH guide, crater hike. Matatu ..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "en",
+      "responseType": "positive"
+    }
+  },
+  {
+    "id": "global_12",
+    "userQuery": "late night food istanbul",
+    "destination": "Istanbul, Turkey",
+    "context": {
+      "budget": "low",
+      "interests": [
+        "food",
+        "street-food"
+      ],
+      "groupType": "solo",
+      "season": "any"
+    },
+    "outcome": {
+      "venues": [
+        {
+          "name": "Balık Ekmek",
+          "type": "food",
+          "priceRange": "25 TL",
+          "bookingMethod": "direct",
+          "rating": 4,
+          "specialNotes": [
+            "positive"
+          ]
+        }
+      ],
+      "satisfaction": 5,
+      "reasoning": "Balık Ekmek, Galata Bridge, 15-25 TL, grilled fish sandwich. Döner stands, Taksim Square, 10-20 TL, late night kebabs. Simit vendors, throughout city, 3-5 TL, Turkish bagels. Taksim area open until 3-..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "en",
+      "responseType": "positive"
+    }
+  },
+  {
+    "id": "global_13",
+    "userQuery": "winter surfing iceland",
+    "destination": "Iceland",
+    "context": {
+      "budget": "high",
+      "interests": [
+        "surfing",
+        "extreme-sports"
+      ],
+      "groupType": "solo",
+      "season": "winter"
+    },
+    "outcome": {
+      "venues": [
+        {
+          "name": "Reykjanes Peninsula has winter surfing but requires 6mm+ wetsuit",
+          "type": "surfing",
+          "priceRange": "15000 ISK",
+          "bookingMethod": "direct",
+          "rating": 3,
+          "specialNotes": [
+            "mixed"
+          ]
+        }
+      ],
+      "satisfaction": 3,
+      "reasoning": "Reykjanes Peninsula has winter surfing but requires 6mm+ wetsuit, boots, gloves. Temperatures 2-4°C water, -5°C air. Local guides: Arctic Surfers, 15000 ISK lesson + gear. Only for experienced surfers..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "en",
+      "responseType": "mixed"
+    }
+  },
+  {
+    "id": "global_14",
+    "userQuery": "beach parties north pole",
+    "destination": "North Pole",
+    "context": {
+      "budget": "any",
+      "interests": [
+        "beach",
+        "parties"
+      ],
+      "groupType": "solo",
+      "season": "any"
+    },
+    "outcome": {
+      "venues": [],
+      "satisfaction": 1,
+      "reasoning": "No beach parties possible at the North Pole - it's Arctic ice with temperatures below -30°C. No beaches, no infrastructure, no access except scientific expeditions. Consider Arctic cruise destinations..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "en",
+      "responseType": "negative"
+    }
+  },
+  {
+    "id": "global_15",
+    "userQuery": "nightclubs sunday teheran",
+    "destination": "Tehran, Iran",
+    "context": {
+      "budget": "any",
+      "interests": [
+        "clubs",
+        "nightlife"
+      ],
+      "groupType": "solo",
+      "season": "any"
+    },
+    "outcome": {
+      "venues": [
+        {
+          "name": "Traditional nightclubs don't exist in Tehran due to local regulations. Sunday evening alternatives: tea houses like Azari Tea House",
+          "type": "clubs",
+          "priceRange": "Varies",
+          "bookingMethod": "direct",
+          "rating": 1,
+          "specialNotes": [
+            "negative"
+          ]
+        }
+      ],
+      "satisfaction": 1,
+      "reasoning": "Traditional nightclubs don't exist in Tehran due to local regulations. Sunday evening alternatives: tea houses like Azari Tea House, traditional Persian cafes, shopping malls like Iran Mall until 10pm..."
+    },
+    "metadata": {
+      "timestamp": "2025-08-14T21:10:29.308Z",
+      "source": "global_corpus",
+      "language": "en",
+      "responseType": "negative"
+    }
+  },
+  {
+    "id": "global_1",
+    "destination": "Tokyo, Japan",
+    "category": "clubs",
+    "venues": [
+      {
+        "name": "Golden Gai",
+        "type": "clubs",
+        "priceRange": "¥500-1000",
+        "bookingMethod": "direct",
+        "rating": 4,
+        "specialNotes": [
+          "positive"
+        ]
+      }
+    ],
+    "budgetTier": "low",
+    "successRate": 0.9,
+    "userSatisfaction": 5,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.294Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Golden Gai, Shinjuku, ¥500-1000 drinks, tiny bars. Robot Restaurant, Kabukicho, ¥8000 show, unique e"
+      ]
+    }
+  },
+  {
+    "id": "global_2",
+    "destination": "Melbourne, Australia",
+    "category": "restaurants",
+    "venues": [
+      {
+        "name": "Chin Chin",
+        "type": "restaurants",
+        "priceRange": "$25-35",
+        "bookingMethod": "direct",
+        "rating": 4,
+        "specialNotes": [
+          "positive"
+        ]
+      }
+    ],
+    "budgetTier": "medium",
+    "successRate": 0.9,
+    "userSatisfaction": 5,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Chin Chin, 125 Flinders Ln, $25-35 per dish, Southeast Asian. The Eureka Skydeck, 7 Riverside Quay, "
+      ]
+    }
+  },
+  {
+    "id": "global_3",
+    "destination": "Dubai, UAE",
+    "category": "museums",
+    "venues": [
+      {
+        "name": "Dubai Museum",
+        "type": "museums",
+        "priceRange": "Varies",
+        "bookingMethod": "direct",
+        "rating": 4,
+        "specialNotes": [
+          "positive"
+        ]
+      }
+    ],
+    "budgetTier": "low",
+    "successRate": 0.9,
+    "userSatisfaction": 5,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Dubai Museum, Al Fahidi Fort, AED 3 entry, historical exhibits. Etihad Museum, Jumeira, AED 25, UAE "
+      ]
+    }
+  },
+  {
+    "id": "global_4",
+    "destination": "Antarctica",
+    "category": "food",
+    "venues": [],
+    "budgetTier": "any",
+    "successRate": 0.1,
+    "userSatisfaction": 1,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Sorry, there are no vegan ice cream shops in Antarctica. Antarctica has no permanent commercial esta"
+      ]
+    }
+  },
+  {
+    "id": "global_5",
+    "destination": "Riyadh, Saudi Arabia",
+    "category": "clubs",
+    "venues": [
+      {
+        "name": "Riyadh doesn't have traditional nightclubs due to local laws. Alternatives: Al Nakheel Mall entertainment complex until 11pm",
+        "type": "clubs",
+        "priceRange": "Varies",
+        "bookingMethod": "direct",
+        "rating": 1,
+        "specialNotes": [
+          "negative"
+        ]
+      }
+    ],
+    "budgetTier": "any",
+    "successRate": 0.1,
+    "userSatisfaction": 1,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Riyadh doesn't have traditional nightclubs due to local laws. Alternatives: Al Nakheel Mall entertai"
+      ]
+    }
+  },
+  {
+    "id": "global_6",
+    "destination": "Moscow, Russia",
+    "category": "beach",
+    "venues": [],
+    "budgetTier": "any",
+    "successRate": 0.1,
+    "userSatisfaction": 1,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "No beach clubs operate in Moscow during January (-10°C average). Winter alternatives: Sanduny Baths,"
+      ]
+    }
+  },
+  {
+    "id": "global_7",
+    "destination": "Alaska, USA",
+    "category": "restaurants",
+    "venues": [
+      {
+        "name": "Limited luxury options in remote Alaska. Anchorage: Simon & Seafort's",
+        "type": "restaurants",
+        "priceRange": "$35-55",
+        "bookingMethod": "direct",
+        "rating": 3,
+        "specialNotes": [
+          "mixed"
+        ]
+      }
+    ],
+    "budgetTier": "high",
+    "successRate": 0.5,
+    "userSatisfaction": 3,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Limited luxury options in remote Alaska. Anchorage: Simon & Seafort's, 420 L St, $35-55 entrees, sea"
+      ]
+    }
+  },
+  {
+    "id": "global_8",
+    "destination": "Oslo, Norway",
+    "category": "hostels",
+    "venues": [
+      {
+        "name": "Oslo is very expensive. Budget options: Anker Hostel",
+        "type": "hostels",
+        "priceRange": "400 NOK",
+        "bookingMethod": "direct",
+        "rating": 3,
+        "specialNotes": [
+          "mixed"
+        ]
+      }
+    ],
+    "budgetTier": "low",
+    "successRate": 0.5,
+    "userSatisfaction": 3,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Oslo is very expensive. Budget options: Anker Hostel, Storgata 55, 250-400 NOK/night. Free activitie"
+      ]
+    }
+  },
+  {
+    "id": "global_9",
+    "destination": "Stockholm, Sweden",
+    "category": "restaurants",
+    "venues": [
+      {
+        "name": "Hermans Vegetariska",
+        "type": "restaurants",
+        "priceRange": "120 SEK",
+        "bookingMethod": "direct",
+        "rating": 4,
+        "specialNotes": [
+          "positive"
+        ]
+      }
+    ],
+    "budgetTier": "low",
+    "successRate": 0.9,
+    "userSatisfaction": 5,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Hermans Vegetariska, Fjällgatan 23B, 85-120 SEK buffé, vegetarisk. Nystekt Strömming, Södermalm, 45-"
+      ]
+    }
+  },
+  {
+    "id": "global_10",
+    "destination": "Buenos Aires, Argentina",
+    "category": "restaurants",
+    "venues": [
+      {
+        "name": "El Cuartito",
+        "type": "restaurants",
+        "priceRange": "$500-800",
+        "bookingMethod": "direct",
+        "rating": 4,
+        "specialNotes": [
+          "positive"
+        ]
+      }
+    ],
+    "budgetTier": "low",
+    "successRate": 0.9,
+    "userSatisfaction": 5,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "El Cuartito, Talcahuano 937, $500-800 pesos, pizza porteña. Los Inmortales, Corrientes 1369, $400-60"
+      ]
+    }
+  },
+  {
+    "id": "global_11",
+    "destination": "Nairobi, Kenya",
+    "category": "hiking",
+    "venues": [
+      {
+        "name": "Ngong Hills",
+        "type": "hiking",
+        "priceRange": "500 KSH",
+        "bookingMethod": "direct",
+        "rating": 4,
+        "specialNotes": [
+          "positive"
+        ]
+      }
+    ],
+    "budgetTier": "low",
+    "successRate": 0.9,
+    "userSatisfaction": 5,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Ngong Hills, 30km south, 500 KSH entry, rolling hills views. Karura Forest, Kiambu Road, free entry,"
+      ]
+    }
+  },
+  {
+    "id": "global_12",
+    "destination": "Istanbul, Turkey",
+    "category": "food",
+    "venues": [
+      {
+        "name": "Balık Ekmek",
+        "type": "food",
+        "priceRange": "25 TL",
+        "bookingMethod": "direct",
+        "rating": 4,
+        "specialNotes": [
+          "positive"
+        ]
+      }
+    ],
+    "budgetTier": "low",
+    "successRate": 0.9,
+    "userSatisfaction": 5,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Balık Ekmek, Galata Bridge, 15-25 TL, grilled fish sandwich. Döner stands, Taksim Square, 10-20 TL, "
+      ]
+    }
+  },
+  {
+    "id": "global_13",
+    "destination": "Iceland",
+    "category": "surfing",
+    "venues": [
+      {
+        "name": "Reykjanes Peninsula has winter surfing but requires 6mm+ wetsuit",
+        "type": "surfing",
+        "priceRange": "15000 ISK",
+        "bookingMethod": "direct",
+        "rating": 3,
+        "specialNotes": [
+          "mixed"
+        ]
+      }
+    ],
+    "budgetTier": "high",
+    "successRate": 0.5,
+    "userSatisfaction": 3,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Reykjanes Peninsula has winter surfing but requires 6mm+ wetsuit, boots, gloves. Temperatures 2-4°C "
+      ]
+    }
+  },
+  {
+    "id": "global_14",
+    "destination": "North Pole",
+    "category": "beach",
+    "venues": [],
+    "budgetTier": "any",
+    "successRate": 0.1,
+    "userSatisfaction": 1,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "No beach parties possible at the North Pole - it's Arctic ice with temperatures below -30°C. No beac"
+      ]
+    }
+  },
+  {
+    "id": "global_15",
+    "destination": "Tehran, Iran",
+    "category": "clubs",
+    "venues": [
+      {
+        "name": "Traditional nightclubs don't exist in Tehran due to local regulations. Sunday evening alternatives: tea houses like Azari Tea House",
+        "type": "clubs",
+        "priceRange": "Varies",
+        "bookingMethod": "direct",
+        "rating": 1,
+        "specialNotes": [
+          "negative"
+        ]
+      }
+    ],
+    "budgetTier": "any",
+    "successRate": 0.1,
+    "userSatisfaction": 1,
+    "metadata": {
+      "source": "global_corpus",
+      "lastUpdated": "2025-08-14T21:12:39.295Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Traditional nightclubs don't exist in Tehran due to local regulations. Sunday evening alternatives: "
+      ]
+    }
+  }
+]
