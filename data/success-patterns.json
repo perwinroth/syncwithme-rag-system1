@@ -1,0 +1,179 @@
+[
+  {
+    "id": "berlin_techno_budget",
+    "destination": "berlin",
+    "category": "nightlife",
+    "venues": [
+      {
+        "name": "Berghain",
+        "type": "techno club",
+        "address": "Am Wriezener Bahnhof, 10243 Berlin",
+        "priceRange": "€15-25",
+        "bookingMethod": "door only",
+        "rating": 4.8,
+        "specialNotes": [
+          "Arrive after 1am",
+          "Dress in black",
+          "No photos inside"
+        ]
+      },
+      {
+        "name": "Sisyphos",
+        "type": "techno club",
+        "address": "Hauptstraße 15, 10317 Berlin",
+        "priceRange": "€15-20",
+        "bookingMethod": "door or online",
+        "rating": 4.6,
+        "specialNotes": [
+          "More relaxed door policy",
+          "Open air area",
+          "Weekend marathons"
+        ]
+      },
+      {
+        "name": "Warschauer Döner",
+        "type": "late night food",
+        "address": "Warschauer Str. 70, 10243 Berlin",
+        "priceRange": "€4-8",
+        "bookingMethod": "walk-in",
+        "rating": 4.3,
+        "specialNotes": [
+          "Open 24/7",
+          "Perfect after clubbing",
+          "Cash only"
+        ]
+      }
+    ],
+    "budgetTier": "medium",
+    "successRate": 0.89,
+    "userSatisfaction": 4.7,
+    "metadata": {
+      "source": "berlintraveltips.com",
+      "lastUpdated": "2025-08-14T18:24:04.596Z",
+      "bookingPattern": "spontaneous",
+      "localInsights": [
+        "Berghain is legendary but Sisyphos is more accessible",
+        "Always have cash for late night food",
+        "Techno scene runs Friday night to Monday morning",
+        "Warschauer area is the epicenter"
+      ]
+    }
+  },
+  {
+    "id": "paris_art_food_couple",
+    "destination": "paris",
+    "category": "culture",
+    "venues": [
+      {
+        "name": "Louvre Museum",
+        "type": "art museum",
+        "address": "Rue de Rivoli, 75001 Paris",
+        "priceRange": "€17",
+        "bookingMethod": "online advance",
+        "rating": 4.5,
+        "website": "https://www.louvre.fr",
+        "openingHours": "9:00-18:00 (closed Tuesdays)"
+      },
+      {
+        "name": "Musée d'Orsay",
+        "type": "art museum",
+        "address": "1 Rue de la Légion d'Honneur, 75007 Paris",
+        "priceRange": "€16",
+        "bookingMethod": "online or door",
+        "rating": 4.6,
+        "specialNotes": [
+          "Best for Impressionist art",
+          "Less crowded than Louvre"
+        ]
+      },
+      {
+        "name": "L'As du Fallafel",
+        "type": "restaurant",
+        "address": "34 Rue des Rosiers, 75004 Paris",
+        "priceRange": "€8-15",
+        "bookingMethod": "walk-in",
+        "rating": 4.4,
+        "specialNotes": [
+          "Famous Marais falafel",
+          "Long queues",
+          "Cash preferred"
+        ]
+      }
+    ],
+    "budgetTier": "medium",
+    "successRate": 0.92,
+    "userSatisfaction": 4.8,
+    "metadata": {
+      "source": "multiple_travel_blogs",
+      "lastUpdated": "2025-08-14T18:24:04.597Z",
+      "bookingPattern": "planned",
+      "localInsights": [
+        "Book museum tickets online to skip lines",
+        "Marais district perfect for art + food combination",
+        "October is ideal weather for walking",
+        "Coffee shops near museums for breaks"
+      ]
+    }
+  },
+  {
+    "id": "tokyo_foodie_solo",
+    "destination": "tokyo",
+    "category": "food",
+    "venues": [
+      {
+        "name": "Tsukiji Outer Market",
+        "type": "food market",
+        "address": "5 Chome-2-1 Tsukiji, Chuo City, Tokyo",
+        "priceRange": "€5-20",
+        "bookingMethod": "walk-in",
+        "rating": 4.7,
+        "openingHours": "5:00-14:00",
+        "specialNotes": [
+          "Early morning best",
+          "Fresh sushi",
+          "Cash only most stalls"
+        ]
+      },
+      {
+        "name": "Ippudo Ramen",
+        "type": "ramen shop",
+        "address": "Multiple locations",
+        "priceRange": "€8-15",
+        "bookingMethod": "walk-in",
+        "rating": 4.5,
+        "specialNotes": [
+          "Tonkotsu specialist",
+          "English menu available",
+          "Queue expected"
+        ]
+      },
+      {
+        "name": "Nabezo",
+        "type": "all-you-can-eat",
+        "address": "Multiple locations",
+        "priceRange": "€25-35",
+        "bookingMethod": "online reservation",
+        "rating": 4.2,
+        "specialNotes": [
+          "Budget-friendly option",
+          "90-minute limit",
+          "Great for solo diners"
+        ]
+      }
+    ],
+    "budgetTier": "low",
+    "successRate": 0.85,
+    "userSatisfaction": 4.6,
+    "metadata": {
+      "source": "foodie_travel_guides",
+      "lastUpdated": "2025-08-14T18:24:04.597Z",
+      "bookingPattern": "mixed",
+      "localInsights": [
+        "Tsukiji early morning essential for best selection",
+        "Ramen shops often have queues but move fast",
+        "Many places cash only",
+        "Solo dining very common and comfortable"
+      ]
+    }
+  }
+]
