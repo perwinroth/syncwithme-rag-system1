@@ -99,27 +99,25 @@ Group indicators:
       const langPattern = pattern.content as LanguagePattern
       
       // Check if any phrases match
-      const phrases = langPattern.phrases || []
-      const matchingPhrases = phrases.filter(phrase => 
+      const matchingPhrases = langPattern.phrases.filter(phrase => 
         message.includes(phrase.toLowerCase())
       )
 
       if (matchingPhrases.length > 0) {
-        confidence = Math.max(confidence, pattern.confidence || 0.5)
+        confidence = Math.max(confidence, pattern.confidence)
         
         // Apply mappings
-        const mapsTo = langPattern.mapsTo
-        if (mapsTo?.budgetTier) {
-          extracted.budgetTier = mapsTo.budgetTier
+        if (langPattern.mapsTo.budgetTier) {
+          extracted.budgetTier = langPattern.mapsTo.budgetTier
         }
-        if (mapsTo?.interests) {
-          extracted.interests = [...(extracted.interests || []), ...mapsTo.interests]
+        if (langPattern.mapsTo.interests) {
+          extracted.interests = [...(extracted.interests || []), ...langPattern.mapsTo.interests]
         }
-        if (mapsTo?.pace) {
-          extracted.pace = mapsTo.pace
+        if (langPattern.mapsTo.pace) {
+          extracted.pace = langPattern.mapsTo.pace
         }
-        if (mapsTo?.groupType) {
-          extracted.groupType = mapsTo.groupType
+        if (langPattern.mapsTo.groupType) {
+          extracted.groupType = langPattern.mapsTo.groupType
         }
       }
     }

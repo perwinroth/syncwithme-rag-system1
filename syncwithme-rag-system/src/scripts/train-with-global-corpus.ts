@@ -67,8 +67,6 @@ function convertCorpusToPatterns(corpus: CorpusEntry[]) {
     const languagePattern: LanguagePattern = {
       id: `lang_global_${index + 1}`,
       userQuery: entry.query,
-      confidence: entry.metadata.response_type === 'positive' ? 0.9 :
-                 entry.metadata.response_type === 'negative' ? 0.3 : 0.6,
       detectedIntent: {
         destination: entry.metadata.location,
         activityTypes: entry.metadata.activity_types,
