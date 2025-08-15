@@ -56,4 +56,4 @@ jobs:
         RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
       run: |
         echo "Deploying to Railway with token..."
-        railway deploy --detach
+        railway deploy
