@@ -1,0 +1,1 @@
+{"version":3,"file":"process-corpuses.d.ts","sourceRoot":"","sources":["../../src/scripts/process-corpuses.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,cAAc,EAAE,eAAe,EAAE,MAAM,UAAU,CAAA;AAqB1D,qBAAa,eAAe;IAEpB,sBAAsB,IAAI,OAAO,CAAC,cAAc,EAAE,CAAC;IAqKnD,uBAAuB,IAAI,OAAO,CAAC,eAAe,EAAE,CAAC;IAqJrD,iBAAiB,CACrB,eAAe,EAAE,cAAc,EAAE,EACjC,gBAAgB,EAAE,eAAe,EAAE;CAiBtC"}
