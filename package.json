@@ -1,14 +1,15 @@
 {
   "name": "syncwithme-rag-system",
-  "version": "1.0.0",
-  "description": "Dual RAG system for travel intelligence",
-  "main": "src/index.ts",
+  "version": "2.0.0",
+  "description": "Global RAG system for travel intelligence with automated deployment",
+  "main": "src/server.ts",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
     "test": "jest",
-    "deploy": "vercel",
+    "deploy": "./scripts/quick-deploy.sh",
+    "deploy:message": "./scripts/quick-deploy.sh",
     "sync-corpuses": "tsx src/scripts/sync-corpuses.ts",
     "process-corpuses": "tsx src/scripts/process-corpuses.ts",
     "docker:build": "docker build -t syncwithme-rag .",
@@ -39,5 +40,24 @@
     "typescript": "^5.3.0",
     "jest": "^29.7.0",
     "@types/jest": "^29.5.0"
+  },
+  "keywords": [
+    "rag",
+    "travel",
+    "ai",
+    "pinecone",
+    "openai",
+    "railway",
+    "automation",
+    "global"
+  ],
+  "author": "Per Winroth",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perwinroth/syncwithme-rag-system1.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
