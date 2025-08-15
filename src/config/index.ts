@@ -39,8 +39,9 @@ export const CONFIG = {
     maxTokens: 4000,
     temperature: 0.1,
     topK: 10,
-    confidenceThreshold: 0.7,
-    maxRetries: 3
+    confidenceThreshold: 0.6, // Lowered to capture more results (scores are ~0.66)
+    maxRetries: 3,
+    dualMode: true
   }
 }
 

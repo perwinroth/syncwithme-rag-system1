@@ -143,7 +143,7 @@ class CloudVectorStore {
             id: metadata.id,
             destination: metadata.destination,
             category: metadata.category,
-            venues: JSON.parse(metadata.venues || '[]'),
+            venues: typeof metadata.venues === 'string' ? JSON.parse(metadata.venues || '[]') : metadata.venues || [],
             budgetTier: metadata.budgetTier,
             successRate: metadata.successRate || 0,
             userSatisfaction: metadata.userSatisfaction || 0,
@@ -151,7 +151,9 @@ class CloudVectorStore {
                 source: metadata.source,
                 lastUpdated: metadata.lastUpdated,
                 bookingPattern: metadata.bookingPattern || '',
-                localInsights: JSON.parse(metadata.localInsights || '[]')
+                localInsights: typeof metadata.localInsights === 'string'
+                    ? JSON.parse(metadata.localInsights || '[]')
+                    : metadata.localInsights || []
             }
         };
     }

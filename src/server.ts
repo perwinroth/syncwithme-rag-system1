@@ -1,6 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import { DualRAGSystem } from './core/dual-rag-system'
+import { SelfLearningRAG } from './core/self-learning-rag'
 import { RAGQueryRequest } from './types'
 import { CONFIG } from './config'
 
@@ -13,14 +14,15 @@ app.use(express.json({ limit: '10mb' }))
 app.use(express.static('public'))
 
 // Initialize RAG system
-let ragSystem: DualRAGSystem | null = null
+let ragSystem: SelfLearningRAG | null = null
 
 async function initializeRAG() {
   if (!ragSystem) {
-    console.log('🚀 Initializing RAG System...')
-    ragSystem = new DualRAGSystem()
+    console.log('🚀 Initializing Self-Learning RAG System...')
+    ragSystem = new SelfLearningRAG()
     await ragSystem.initialize()
-    console.log('✅ RAG System initialized')
+    console.log('✅ Self-Learning RAG System initialized')
+    console.log('🧠 Auto-learning from web searches: ENABLED')
   }
   return ragSystem
 }
@@ -31,7 +33,7 @@ app.get('/api/health', (req, res) => {
     status: 'healthy',
     timestamp: new Date().toISOString(),
     version: '2.0.0',
-    service: 'SyncWithMe RAG Server',
+    service: 'SyncWithMe Self-Learning RAG Server',
     mode: 'persistent-server',
     uptime: process.uptime(),
     ragStatus: ragSystem ? 'initialized' : 'pending'
@@ -55,7 +57,10 @@ app.post('/api/rag/query', async (req, res) => {
       hasContext: !!request.context
     })
 
-    const response = await rag.query(request)
+    const response = await rag.query({
+      userMessage: request.userMessage,
+      conversationContext: request.context || []
+    })
     res.json(response)
 
   } catch (error) {

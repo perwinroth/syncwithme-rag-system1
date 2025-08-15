@@ -26,6 +26,7 @@ export declare const CONFIG: {
         topK: number;
         confidenceThreshold: number;
         maxRetries: number;
+        dualMode: boolean;
     };
 };
 //# sourceMappingURL=index.d.ts.map

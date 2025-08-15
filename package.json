@@ -20,7 +20,8 @@
     "create-massive-corpus": "tsx src/scripts/create-massive-corpus.ts",
     "train-global-corpus": "tsx src/scripts/train-with-global-corpus.ts",
     "train-massive-corpus": "tsx src/scripts/train-with-global-corpus.ts --massive",
-    "quick-upload": "tsx src/scripts/quick-pinecone-upload.ts"
+    "quick-upload": "tsx src/scripts/quick-pinecone-upload.ts",
+    "fixed-upload": "tsx src/scripts/fixed-pinecone-upload.ts"
   },
   "dependencies": {
     "@pinecone-database/pinecone": "^2.0.0",

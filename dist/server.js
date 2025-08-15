@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
-const dual_rag_system_1 = require("./core/dual-rag-system");
+const self_learning_rag_1 = require("./core/self-learning-rag");
 const config_1 = require("./config");
 const app = (0, express_1.default)();
 const PORT = config_1.CONFIG.server.port || 3001;
@@ -17,10 +17,11 @@ app.use(express_1.default.static('public'));
 let ragSystem = null;
 async function initializeRAG() {
     if (!ragSystem) {
-        console.log('🚀 Initializing RAG System...');
-        ragSystem = new dual_rag_system_1.DualRAGSystem();
+        console.log('🚀 Initializing Self-Learning RAG System...');
+        ragSystem = new self_learning_rag_1.SelfLearningRAG();
         await ragSystem.initialize();
-        console.log('✅ RAG System initialized');
+        console.log('✅ Self-Learning RAG System initialized');
+        console.log('🧠 Auto-learning from web searches: ENABLED');
     }
     return ragSystem;
 }
@@ -30,7 +31,7 @@ app.get('/api/health', (req, res) => {
         status: 'healthy',
         timestamp: new Date().toISOString(),
         version: '2.0.0',
-        service: 'SyncWithMe RAG Server',
+        service: 'SyncWithMe Self-Learning RAG Server',
         mode: 'persistent-server',
         uptime: process.uptime(),
         ragStatus: ragSystem ? 'initialized' : 'pending'
