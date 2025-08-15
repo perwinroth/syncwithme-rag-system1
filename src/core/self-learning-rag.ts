@@ -7,6 +7,7 @@ import { OpenAI } from 'openai'
 import { CONFIG } from '../config'
 import { CloudVectorStore } from './vector-store'
 import { DualRAGSystem } from './dual-rag-system'
+import { VenueValidator } from './venue-validator'
 import { SuccessPattern, Venue, TravelIntent, RAGQueryResponse } from '../types'
 import fetch from 'node-fetch'
 
@@ -23,12 +24,14 @@ interface WebSearchResult {
 export class SelfLearningRAG extends DualRAGSystem {
   private selfOpenai: OpenAI
   private selfVectorStore: CloudVectorStore
+  private venueValidator: VenueValidator
   private learningEnabled: boolean = true
 
   constructor() {
     super()
     this.selfOpenai = new OpenAI({ apiKey: CONFIG.openai.apiKey })
     this.selfVectorStore = new CloudVectorStore()
+    this.venueValidator = new VenueValidator()
   }
 
   async query(request: { userMessage: string; conversationContext: any[] }): Promise<RAGQueryResponse> {
@@ -40,7 +43,17 @@ export class SelfLearningRAG extends DualRAGSystem {
     // Check if we got good results
     if (ragResponse.confidence >= 0.7 && ragResponse.recommendations.venues.length > 0) {
       console.log('✅ Found in corpus with high confidence')
-      return ragResponse
+      // Validate venues are still open before returning
+      console.log('🔍 Validating venue freshness...')
+      const validatedVenues = await this.venueValidator.validateVenues(ragResponse.recommendations.venues)
+      
+      return {
+        ...ragResponse,
+        recommendations: {
+          ...ragResponse.recommendations,
+          venues: validatedVenues
+        }
+      }
     }
     
     // Low confidence or no results - search the web
@@ -67,18 +80,27 @@ export class SelfLearningRAG extends DualRAGSystem {
     // Convert web results to venues
     const newVenues = await this.convertToVenues(webResults, searchIntent)
     
-    // Add to corpus for future use
-    if (this.learningEnabled) {
-      await this.addToCorpus(newVenues, searchIntent)
-      console.log('📚 Added to corpus for future queries')
+    // Validate web-sourced venues are real and open
+    console.log('🔍 Validating web-sourced venues...')
+    const validatedNewVenues = await this.venueValidator.validateVenues(newVenues)
+    
+    // Add validated venues to corpus for future use
+    if (this.learningEnabled && validatedNewVenues.length > 0) {
+      await this.addToCorpus(validatedNewVenues, searchIntent)
+      console.log('📚 Added validated venues to corpus for future queries')
     }
     
-    // Return enhanced response
+    // Validate existing corpus venues too
+    const validatedExistingVenues = await this.venueValidator.validateVenues(
+      ragResponse.recommendations.venues
+    )
+    
+    // Return enhanced response with validated venues
     return {
       ...ragResponse,
       recommendations: {
         ...ragResponse.recommendations,
-        venues: [...newVenues, ...ragResponse.recommendations.venues].slice(0, 5),
+        venues: [...validatedNewVenues, ...validatedExistingVenues].slice(0, 5),
         localTips: [
           'These venues were found through web search',
           'Information may need verification',
