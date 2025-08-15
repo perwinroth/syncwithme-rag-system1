@@ -32,7 +32,8 @@ app.get('/api/health', (req, res) => {
         version: '2.0.0',
         service: 'SyncWithMe RAG Server',
         mode: 'persistent-server',
-        uptime: process.uptime()
+        uptime: process.uptime(),
+        ragStatus: ragSystem ? 'initialized' : 'pending'
     });
 });
 // Main RAG query endpoint
@@ -90,12 +91,15 @@ app.post('/api/rag/process-corpus', async (req, res) => {
 // Start server
 async function start() {
     try {
-        // Initialize RAG on startup for faster first request
-        await initializeRAG();
+        // Start server first
         app.listen(PORT, () => {
             console.log(`🚀 RAG Server running on port ${PORT}`);
             console.log(`📍 Health: http://localhost:${PORT}/api/health`);
             console.log(`📍 Query: http://localhost:${PORT}/api/rag/query`);
+        });
+        // Initialize RAG in background (don't block server startup)
+        initializeRAG().catch(error => {
+            console.error('⚠️ RAG initialization failed (will retry on first query):', error);
         });
     }
     catch (error) {

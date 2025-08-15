@@ -58,16 +58,36 @@ export interface Activity {
 }
 export interface LanguagePattern {
     id: string;
-    intent: string;
-    phrases: string[];
-    confidence: number;
-    mapsTo: {
+    intent?: string;
+    phrases?: string[];
+    userQuery?: string;
+    confidence?: number;
+    mapsTo?: {
         budgetTier?: string;
         interests?: string[];
         pace?: string;
         groupType?: string;
     };
-    examples: string[];
+    examples?: string[];
+    detectedIntent?: {
+        destination: string;
+        activityTypes: string[];
+        budgetTier: string;
+        language: string;
+        urgency: string;
+        groupSize: string;
+    };
+    contextClues?: {
+        timeOfDay: string[];
+        priceIndicators: string[];
+        moodKeywords: string[];
+        locationSpecificity: string;
+    };
+    metadata?: {
+        timestamp: string;
+        source: string;
+        confidence: number;
+    };
 }
 export interface RAGResult {
     type: 'success_pattern' | 'language_pattern';
