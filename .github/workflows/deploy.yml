@@ -48,8 +48,12 @@ jobs:
     - name: Build for production
       run: npm run build
     
+    - name: Install Railway CLI
+      run: npm install -g @railway/cli
+    
     - name: Deploy to Railway
-      uses: bervProject/railway-deploy@v1.0.0
-      with:
-        railway_token: ${{ secrets.RAILWAY_TOKEN }}
-        service: syncwithme-rag-system
+      env:
+        RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+      run: |
+        railway login --token $RAILWAY_TOKEN
+        railway up --detach
