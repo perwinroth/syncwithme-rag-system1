@@ -17,7 +17,9 @@
     "generate-corpus": "tsx src/scripts/generate-corpus.ts",
     "generate-test-corpus": "tsx src/scripts/generate-test-corpus.ts",
     "create-global-corpus": "tsx src/scripts/create-global-corpus.ts",
-    "train-global-corpus": "tsx src/scripts/train-with-global-corpus.ts"
+    "create-massive-corpus": "tsx src/scripts/create-massive-corpus.ts",
+    "train-global-corpus": "tsx src/scripts/train-with-global-corpus.ts",
+    "train-massive-corpus": "tsx src/scripts/train-with-global-corpus.ts --massive"
   },
   "dependencies": {
     "@pinecone-database/pinecone": "^2.0.0",

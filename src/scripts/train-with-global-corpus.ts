@@ -136,16 +136,24 @@ function extractMoodKeywords(query: string): string[] {
   return moodWords.filter(word => query.toLowerCase().includes(word))
 }
 
-async function trainWithGlobalCorpus() {
+async function trainWithGlobalCorpus(useMassiveCorpus = false) {
   console.log('🧠 Training RAG system with global corpus...')
   
-  // Load corpus
-  const corpusPath = path.join(process.cwd(), 'data', 'corpus', 'global_corpus.jsonl')
+  // Load corpus - use massive corpus if available and requested
+  const massiveCorpusPath = path.join(process.cwd(), 'data', 'corpus', 'massive_global_corpus_10k.jsonl')
+  const regularCorpusPath = path.join(process.cwd(), 'data', 'corpus', 'global_corpus.jsonl')
+  
+  const corpusPath = useMassiveCorpus && fs.existsSync(massiveCorpusPath) 
+    ? massiveCorpusPath 
+    : regularCorpusPath
   
   if (!fs.existsSync(corpusPath)) {
-    console.error('❌ Global corpus not found. Run: npm run create-global-corpus')
+    console.error(`❌ Corpus not found at ${corpusPath}`)
+    console.error('Run: npm run create-massive-corpus or npm run create-global-corpus')
     return
   }
+  
+  console.log(`📊 Using corpus: ${path.basename(corpusPath)}`)
   
   const corpusContent = fs.readFileSync(corpusPath, 'utf-8')
   const corpus: CorpusEntry[] = corpusContent
@@ -202,7 +210,9 @@ async function trainWithGlobalCorpus() {
 }
 
 if (require.main === module) {
-  trainWithGlobalCorpus().catch(console.error)
+  // Check if --massive flag is passed
+  const useMassive = process.argv.includes('--massive')
+  trainWithGlobalCorpus(useMassive).catch(console.error)
 }
 
 export { trainWithGlobalCorpus }
